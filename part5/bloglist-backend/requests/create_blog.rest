@@ -1,0 +1,10 @@
+POST http://localhost:3033/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJpZCI6IjVmYTFjMGUwMWI5YTkyNmY0M2E1OWI2YSIsImlhdCI6MTYwNDQzOTIyOH0.r9D3SvhH5cEo-Dkb6cUpNDmS_2djVDCUIlAa_qqVBJM
+
+{
+  "title": "test 1",
+  "author": "Jnasty",
+  "url": "https://fullstackopen.com/en/part4/testing_the_backend",
+  "likes": 4
+}
